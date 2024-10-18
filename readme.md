@@ -54,8 +54,8 @@
 <p>Facendo "docker network inspect nomerede" onde o nome da rede e "bridgep4" mostra os contenedores que  ten nesa rede.</p>
 <br>
 <p>docker network inspect bridgep4 </p>
-<p>Resultado:
-"Containers": {
+<p>Resultado:</p>
+<p>"Containers": {
             "80279d181273806d00de21ae01555b8031e89449249f74781d4d45a03b175713": {
                 "Name": "beautiful_villani",
                 "EndpointID": "402ddabea8529ef28ce516a83faf83d159955dc89d55ab428a45a776dab0c01a",
@@ -128,7 +128,7 @@ networks:
     driver: bridge
 </p>
 <br>
-<h3>Busca 4 parámetros e configuracións diferentes que podes incluir no arquivo compose</h3>
+<h3>3. Busca 4 parámetros e configuracións diferentes que podes incluir no arquivo compose</h3>
 <p>network -> Para indicar unha rede</p>
 <p>volume -> Para indicar un volumen</p>
 <p>image -> Indicar unha imaxen</p>
